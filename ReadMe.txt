@@ -13,10 +13,15 @@ S - Move Down
 D - Move Right
 
 Camera:
-Zoom In/Out - Mouse LeftClick + Drag Up Down
-Pan Left/Right - Mouse LeftClick + Drag Left Right
-Pan Up/Down - Mouse RightClick + Drag Up Down
-RotateCamera - Mouse Middle Button + Drag (not recommand to use)
+Mouse LeftClick + Drag Up Down - Zoom In/Out
+Mouse LeftClick + Drag Left Right - Pan Left/Right 
+Mouse RightClick + Drag Up Down - Pan Up/Down
+Mouse Middle Button + Drag - RotateCamera (not recommand to use)
+
+[System]
+F1 - Wireframe Mode
+F2 - No Texture Mode
+F3 - Debug Mode: shows hitbox and directional axis
 
 Others:
 P - Pause Game
