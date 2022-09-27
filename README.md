@@ -10,10 +10,10 @@
   No Installation Required. Just Git clone or direct download
 
 ## Usage
-1. Install [Panda3D] (https://github.com/KhiewJianBin/PythonPacman/blob/main/Redist/Panda3D-1.8.1.exe) in Redist
+1. Install [Panda3D](https://github.com/KhiewJianBin/PythonPacman/blob/main/Redist/Panda3D-1.8.1.exe) in Redist
 2. Fix Audio Bug: Open Panda3D Config file in  {panda root}\etc\Config.prc
 3. Search and replace "audio-library-name p3openal_audio" to "audio-library-name p3fmod_audio"
-4. Run [Task14.py] (https://github.com/KhiewJianBin/PythonPacman/blob/main/PacMan/Task14.py) in Panda3Ds' preinstlal python(python 2.7) using CLI
+4. Run [Task14.py](https://github.com/KhiewJianBin/PythonPacman/blob/main/PacMan/Task14.py) in Panda3Ds' preinstlal python(python 2.7) using CLI
 
 ## Instructions
 
@@ -44,7 +44,10 @@ Mouse Middle Button + Drag - RotateCamera (not recommand to use)
 
 
 ## Bugs
-- Game loads on start and Camera Controls are active while on main menu.
+- Game loads on start and Camera Controls are active while on main menu
+
+## Notes
+- Other versions of python might not work properly
 
 ## Dev Notes
 - Movement of Player & Ghost is done using Box2D which introduce floating point positions
